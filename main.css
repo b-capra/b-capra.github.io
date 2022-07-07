@@ -1,0 +1,45 @@
+html {
+    font-size: 22px;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #020133
+}
+
+body {
+    width: 1200px;
+    margin: 20px auto;
+    color: aliceblue;
+    padding: 0 20px 20px 20px;
+    background-color: lightslategray;
+}
+
+h1 {
+    margin: 0;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 48px;
+    letter-spacing: 3px;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+hr {
+    width: 600px;
+}
+
+.location, a {
+    color: aliceblue;
+}
+
+a:visited {
+    color: blueviolet;
+}
+
+a:hover {
+    color: whitesmoke;
+}
+
+/*last item takes precedence. i.e. a:hover must be after a:visited, or the link just stays purple*/
+
