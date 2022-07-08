@@ -14,9 +14,10 @@
     </head>
     <body>
         <h1>Hello World!</h1>
-
         <img src="images/city-scroll.gif" alt="Scrolling gif of a city skyline">
         <!-- This alt text does *not* change when the image changes with the js click funct-->
+        <br>
+        <p class="note">The <a href="#changeUser">change user</a> button can be found at the bottom of the page.</p> 
 
         <hr>
 
@@ -71,11 +72,15 @@
             I'd like to see Northern Italy, places like Torino or Milan, where some of my paternal grandparent's family are from.
             <br>There is a museum in the mountains near Bolzano in South Tyrol where I want to get married. It's located here:</p>
             <address class="location">Messner Mountain Museum Firmian (Sigmundskron Castle) <br>Sigmundskronerstr. 53 <br>I-39100 Bozen</address>
+            <p>You can learn more about the mountain and the museum by clicking the image below:</p>
+            <a href="http://www.messner-mountain-museum.it/en/firmian/museum/" target="_blank" rel="noreferrer noopener">
+                <img src="images/mt-firmian.jpg" alt="Photo of the mountain museum that links to their site">
+            </a>
 
         <hr>
         
         &lt; &lt; &lt; &copy; B. Capra &gt; &gt; &gt; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <!--lt, copy, and gt are html entities for symbols-->
-        <button> Change user</button> <br>
+        <button id="changeUser"> Change user</button> <br>
         <p> Suggestions? Let me know here:&nbsp; &nbsp; &nbsp; <input type="text" disabled></p> 
         <script src="scripts/main.js"></script>
     </body>
