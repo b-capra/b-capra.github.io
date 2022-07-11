@@ -13,7 +13,9 @@
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
     </head>
     <body>
-        <h1>Hello World!</h1>
+        <header>
+            <h1>Hello World!</h1>
+        </header>
         <img src="images/city-scroll.gif" alt="Scrolling gif of a city skyline">
         <!-- This alt text does *not* change when the image changes with the js click funct-->
         <br>
@@ -21,13 +23,16 @@
 
         <hr>
 
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="projects.html">Projects</a></li>
-            <li><a href="culinary.html">Culinary</a></li>
-        </ul>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="culinary.html">Culinary</a></li>
+            </ul>
+        </nav>
 
-        <h2>I'm ready to learn HTML</h2>
+        <main>
+        <h2>I'm ready to learn HTML. I'm beginning this journey <time datetime="2022-07-02">July 2nd, 2022.</time></h2>
         <p>This is my first web page.</p>
 
         <h3>This page demonstrates what I've learned!</h3>
@@ -81,8 +86,7 @@
         <hr>
 
         <h3>Places I'd like to visit:</h3>
-        <p>
-            I'd like to see Northern Italy, places like Torino or Milan, where some of my paternal grandparent's family are from.
+            <p>I'd like to see Northern Italy, places like Torino or Milan, where some of my paternal grandparent's family are from.
             <br>There is a museum in the mountains near Bolzano in South Tyrol where I want to get married. It's located here:</p>
             <address class="location">Messner Mountain Museum Firmian (Sigmundskron Castle) <br>Sigmundskronerstr. 53 <br>I-39100 Bozen</address>
             <p>You can learn more about the mountain and the museum by clicking the image below:</p>
@@ -90,11 +94,16 @@
                 <img src="images/mt-firmian.jpg" alt="Photo of the mountain museum that links to their site">
             </a>
 
+        </main>
+
         <hr>
         
-        &lt; &lt; &lt; &copy; B. Capra &gt; &gt; &gt; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <!--lt, copy, and gt are html entities for symbols-->
-        <button id="changeUser"> Change user</button> <br>
-        <p> Suggestions? Let me know here:&nbsp; &nbsp; &nbsp; <input type="text" disabled></p> 
+        <footer>
+            &lt; &lt; &lt; &copy; B. Capra &gt; &gt; &gt; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <!--lt, copy, and gt are html entities for symbols-->
+            <button id="changeUser"> Change user</button> <br>
+            <p> Suggestions? Let me know here:&nbsp; &nbsp; &nbsp; <input type="text" disabled></p> 
+        </footer>
+        
         <script src="scripts/main.js"></script>
     </body>
 </html>
