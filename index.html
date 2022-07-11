@@ -1,37 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="author" content="b-capra">
-        <meta name="description" content="This page contains all the things I'm learning how to create with HTML">
-        <meta name="twitter:title" content="b-capra's portfolio site">
-        <title>My First Web Page</title>
-        <link rel="icon" href="images/html5.png" type="image/x-icon">
-        <link rel="stylesheet" href="styles/main.css" type="text/css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
-    </head>
-    <body>
-        <header>
-            <h1>Hello World!</h1>
-        </header>
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="b-capra">
+    <meta name="description" content="This page contains all the things I'm learning how to create with HTML">
+    <meta name="twitter:title" content="b-capra's portfolio site">
+    
+    <title>My First Web Page</title>
+
+    <link rel="icon" href="images/html5.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles/main.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <h1>Hello World!</h1>    
         <img src="images/city-scroll.gif" alt="Scrolling gif of a city skyline">
         <!-- This alt text does *not* change when the image changes with the js click funct-->
         <br>
-        <p class="note">The <a href="#changeUser">change user</a> button can be found at the bottom of the page.</p> 
+        <p class="note">The <a href="#changeUser">change user</a> button can be found at the bottom of the page.</p>
+    </header>
 
-        <hr>
+    <hr>
 
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="culinary.html">Culinary</a></li>
-            </ul>
-        </nav>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="culinary.html">Culinary</a></li>
+        </ul>
+    </nav>
 
-        <main>
+    <main>
+    
+    <article>    
         <h2>I'm ready to learn HTML. I'm beginning this journey <time datetime="2022-07-02">July 2nd, 2022.</time></h2>
         <p>This is my first web page.</p>
 
@@ -94,7 +101,9 @@
                 <img src="images/mt-firmian.jpg" alt="Photo of the mountain museum that links to their site">
             </a>
 
-        </main>
+    </article>        
+
+    </main>
 
         <hr>
         
@@ -103,7 +112,7 @@
             <button id="changeUser"> Change user</button> <br>
             <p> Suggestions? Let me know here:&nbsp; &nbsp; &nbsp; <input type="text" disabled></p> 
         </footer>
-        
+
         <script src="scripts/main.js"></script>
     </body>
 </html>
