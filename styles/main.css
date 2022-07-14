@@ -20,6 +20,11 @@ body {
     color: lightgray;
 }
 
+.map {
+    display: block;
+    margin: 0 auto;
+}
+
 dd {
     font-size: 20px;
     color: lightgray;
