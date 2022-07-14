@@ -9,15 +9,16 @@
     
     <title>My First Web Page</title>
 
-    <link rel="icon" href="images/html5.png" type="image/x-icon">
+    <link rel="icon" href="images/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="styles/main.css" type="text/css">
+
+    <!--For retrieving font from Google-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
 </head>
 
 <body>
-
     <header>
         <h1>Hello World!</h1>    
         <img src="images/city-scroll.gif" alt="Scrolling gif of a city skyline">
@@ -25,9 +26,7 @@
         <br>
         <p class="note">The <a href="#changeUser">change user</a> button can be found at the bottom of the page.</p>
     </header>
-
-    <hr>
-
+    
     <nav>
         <ul>
             <li><a href="index.html">Home</a></li>
@@ -35,23 +34,20 @@
             <li><a href="pages/culinary.html">Culinary</a></li>
         </ul>
     </nav>
+    <hr>
 
     <main>
-    
+
     <article>    
-        <h2>I'm ready to learn HTML. I'm beginning this journey <time datetime="2022-07-02">July 2nd, 2022.</time></h2>
-        <p>This is my first web page.</p>
+        <h2>I'm ready to learn web dev. I'm beginning this journey <time datetime="2022-07-02">July 2nd, 2022.</time></h2>
 
-        <h3>This page demonstrates what I've learned!</h3>
+        <h3>This page demonstrates what I've learned so far.</h3>
         <p>Let me tell you how:
-            <br>&nbsp;&nbsp;&nbsp; -- I learn more about web dev. 
+            <br>&nbsp;&nbsp;&nbsp; -- I learn HTML, CSS, and Javascript. 
             <br>&nbsp;&nbsp;&nbsp; -- I plan out my schedule and <em>stick to it!</em> 
-            <br>&nbsp;&nbsp;&nbsp; -- <strong> I use resoureces from <abbr title="Mozilla Developer Network">MDN</abbr>.</strong>
-            <!--the above 'abbr' tag for abbreviations is *not* accessible by most assistive tech, don't put important things here-->
+            <br>&nbsp;&nbsp;&nbsp; -- <strong> I use resources from <abbr title="Mozilla Developer Network">MDN</abbr>.</strong>
         </p>
-
         <hr>
-        
         <h3>My Daily Schedule</h3>
         <p>
             Every day, I eat breakfast and shower right when I wake up.
@@ -89,19 +85,31 @@
             <br> They're the only things that are both gentle and effective enough for my skin.
             <br> I'm still working on the right schedule/rotation for the Retinol and Exfoliator.
         </p>
-
         <hr>
-
         <h3>Places I'd like to visit:</h3>
-            <p>I'd like to see Northern Italy, places like Torino or Milan, where some of my paternal grandparent's family are from.
-            <br>There is a museum in the mountains near Bolzano in South Tyrol where I want to get married. It's located here:</p>
+            <p>I'd like to see Northern Italy, places like Torino or Milan. There is a museum in the mountains near Bolzano in South Tyrol where I've thought about getting married. It's located here:</p>
             <address class="location">Messner Mountain Museum Firmian (Sigmundskron Castle) <br>Sigmundskronerstr. 53 <br>I-39100 Bozen</address>
             <p>You can learn more about the mountain and the museum by clicking the image below:</p>
             <a href="http://www.messner-mountain-museum.it/en/firmian/museum/" target="_blank" rel="noreferrer noopener">
-                <img src="images/mt-firmian.jpg" alt="Photo of the mountain museum that links to their site">
+                <figure>
+                    <img src="images/mt-firmian.jpg" 
+                    alt="Photo of the mountain museum that links to their site">
+                    <figcaption>Mt. Firmian a.k.a. Sigmundskron Castle</figcaption>
+                </figure>
             </a>
 
-    </article>        
+        <h3>My hobbies:</h3>
+        <h4>Keyboards:</h4>
+        <p>I really like building custom mechanical keyboards, and have personally built 3 fully custom builds!</p>
+        <p>The embedded video below showcases the first keyboard I modified before getting into building from scratch.</p>
+        <p>It's a GK84 (a cheap keyboard from China) with lubed and filmed Gateron Optical Silent Yellow switches and some case foam. I currently use a split, ortholinear board that I like <em>much</em> more, but haven't recorded a proper sound test for that one yet.</p>
+        <video src="images/typing-test.mp4" type="video/mp4" controls="" preload="auto" poster="gk84.jpg"></video>
+        <h4>Sim Racing:</h4>
+        <p>I love racing games as a whole, inlcuding the less 'realistic' modern games, retro games, all the way down to Mario Kart. (I do still take Mario Kart more seriously than I should, including modifying an old Wii to play online lobbies.)</p>
+        <p>My favorite, however, are the simulators, or sim racing games, which attempt to mimic real life racing surface physics, aerodynamics, weather, etc. to make for a gaming experience that is as close to the real thing as possible.</p>
+        <p>The video embedded below is from one of my favorite sims, Assetto Corsa Competizione, in an online race I participated in. A.C.C., a GT3 and GT4 exclusive sim, is one of the most detailed and advanced.</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/VOnJbW9rrww" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </article>
 
     </main>
 
