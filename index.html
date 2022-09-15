@@ -6,12 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="./css/style.css">
+    <!--Link to Google Fonts for 'Roboto'-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 
     <title>Landing Page</title>
 </head>
 <body>
     <header class="header">
-        <div class="header__logo">Header Logo</div>
+        <div class="header__logo"><span class="pt_tag">&lt;header&gt;</span> Welcome! <span class="pt_tag">&lt;/header&gt;</span></div>
         <nav class="header__links">
             <ul>
                 <li><a href="#">Header Link One</a></li>
@@ -22,9 +26,11 @@
     </header>
     <main>
         <section class="hero">
-            <h1 class="hero__head">Hi, I'm Brett Capra</h1>
-            <p class="hero__subhead">I'm learning HTML, CSS, and Javascript, as well as their respective tools and frameworks, with the hope of becoming a full-stack web developer.</p>
-            <button class="hero__button">Contact Me</button>
+            <div class="heroleft">
+                <h1 class="hero__head">Hi, I'm Brett Capra</h1>
+                <p class="hero__subhead">I'm learning HTML, CSS, and Javascript, as well as their respective tools and frameworks, with the hope of becoming a full-stack web developer.</p>
+                <button class="hero__button">Contact Me</button>
+            </div>
             <img class="hero__img" src="./img/lang-logos.png" alt="HTML, CSS, and Javascript language logos">
         </section>
         <section class=""></section>

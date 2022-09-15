@@ -5,15 +5,18 @@
     --plhd-bg: #6d747d;
     --lc-text: #b3b7be;
     --hc-text: #f9fafb;
+    font-size: 10px;
 }
 
 body {
     background-color: var(--main-bg);
+    font-family: 'Roboto', sans-serif;
+    width: 80%;
+    margin: 0 auto;
 }
 
 .header {
-    width: 80%;
-    margin: 0 auto;
+    margin-top: 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -22,12 +25,19 @@ body {
 .header__logo {
     color: var(--hc-text);
     font-weight: bold;
+    font-size: 2.5rem;
+}
+
+.pt_tag {
+    color: var(--lc-text);
+    font-weight: normal;
 }
 
 .header__links ul {
     list-style: none;
     display: flex;
     gap: 30px;
+    font-size: 2rem;
 }
 
 .header__links ul a {
@@ -35,12 +45,26 @@ body {
     color: var(--lc-text);
 }
 
+.hero {
+    height: 60vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.heroleft {
+    width: 40%;
+}
+
 .hero__head {
     color: var(--hc-text);
+    font-size: 4rem;
 }
 
 .hero__subhead {
     color: var(--lc-text);
+    font-size: 2rem;
 }
 
 .hero__button {
@@ -48,5 +72,11 @@ body {
     color: var(--hc-text);
     border: none;
     border-radius: 5px;
-    padding: 5px;
+    padding: 10px;
+    font-size: 2rem;
+}
+
+.hero__img {
+    width: 600px;
+    height: 233px;
 }
