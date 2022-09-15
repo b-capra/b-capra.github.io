@@ -10,3 +10,27 @@
 body {
     background-color: var(--main-bg);
 }
+
+.header {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo {
+    color: var(--hc-text);
+    font-weight: bold;
+}
+
+.header__links ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.header__links ul a {
+    text-decoration: none;
+    color: var(--lc-text);
+}
