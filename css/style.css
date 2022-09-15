@@ -34,3 +34,19 @@ body {
     text-decoration: none;
     color: var(--lc-text);
 }
+
+.hero__head {
+    color: var(--hc-text);
+}
+
+.hero__subhead {
+    color: var(--lc-text);
+}
+
+.hero__button {
+    background-color: var(--accent-blue);
+    color: var(--hc-text);
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+}
