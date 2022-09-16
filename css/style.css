@@ -112,4 +112,81 @@ body {
 
 .project__subtext {
     text-align: center;
+    font-size: 1.5rem;
+}
+
+.quote {
+    height: 60vh;
+    background-color: var(--quote-bg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.quote__text {
+    margin: 0;
+    width: 60%;
+    font-size: 4rem;
+    text-align: center;
+    font-weight: light;
+    font-style: italic;
+}
+
+.quote__attribution {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-left: 50%;
+}
+
+.cta {
+    height: 40vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta__card {
+    height: 150px;
+    width: 1000px;
+    background-color: var(--accent-blue);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.cta__text {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: var(--lc-text);
+    font-size: 1.5rem;
+}
+
+.cta__text--main {
+    color: var(--hc-text);
+    font-size: 2.5rem;
+}
+
+.cta__button {
+    background-color: var(--accent-blue);
+    color: var(--hc-text);
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 2rem;
+    height: 40px;
+}
+
+.footer {
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer__attribution {
+    color: var(--lc-text);
+    font-size: 1.5rem;
 }
